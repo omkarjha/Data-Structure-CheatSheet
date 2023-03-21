@@ -10,7 +10,7 @@ A collection of elements, accessed by an index or a key<br>
 A collection of elements, where each element points to the next one in the sequence<br>
 ### Stack: 
 A collection of elements, with operations to add and remove elements from the top of the stack<br>
-### Queue: 
+Queue: 
 A collection of elements, with operations to add elements to the back of the queue and remove elements from the front of the queue<br>
 ### Tree: 
 A hierarchical data structure consisting of nodes with a parent-child relationship<br>
@@ -19,11 +19,12 @@ A tree data structure in which each node has at most two children<br>
 ### Binary Search Tree: 
 A binary tree data structure in which the left subtree of a node contains only nodes with keys less than the node's key, and the right subtree contains only nodes with keys greater than the node's key<br>
 
-Languages
+#### Languages
 The following programming language is used to implement the data structures in this repository:
+
 C
 
-Contributing
+#### Contributing
 Contributions to this repository are welcome! If you would like to contribute an implementation of a data structure in a programming language not currently represented in this repository, please open a pull request.
 
 When contributing, please make sure to include documentation and tests for your implementation.
