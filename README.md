@@ -10,7 +10,7 @@ A collection of elements, accessed by an index or a key<br>
 A collection of elements, where each element points to the next one in the sequence<br>
 ### Stack: 
 A collection of elements, with operations to add and remove elements from the top of the stack<br>
-Queue: 
+### Queue: 
 A collection of elements, with operations to add elements to the back of the queue and remove elements from the front of the queue<br>
 ### Tree: 
 A hierarchical data structure consisting of nodes with a parent-child relationship<br>
