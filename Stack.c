@@ -12,7 +12,7 @@ Stack *createStack(int size)
 {
     Stack *stack = (Stack *)malloc(sizeof(Stack));
     stack->arr = (int *)malloc(size * sizeof(int));
-    stack->size0 = size;
+    stack->size = size;
     stack->top = -1;
     return stack;
 }
@@ -57,6 +57,24 @@ int peek(Stack *stack)
     }
     return stack->arr[stack->top];
 }
+void display(Stack *stack)
+{
+    int i; 
+    if(isEmpty(stack))
+    {
+        printf("The stack is empty");
+        return;
+    }
+    else
+    {
+        printf("The status of the stack is: ");
+        for (i = stack -> top; i >= 0; i--)
+        {
+            printf("%d \t",stack->arr[i]);
+        }
+        printf("\n");
+    }
+}
 
 int main()
 {
@@ -72,7 +90,8 @@ int main()
         printf("\n1. Push\n");
         printf("2. Pop\n");
         printf("3. Peek\n");
-        printf("4. Exit\n");
+        printf("4. Display\n");
+        printf("5. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
 
@@ -90,6 +109,8 @@ int main()
             printf("Top element is %d\n", peek(stack));
             break;
         case 4:
+            display(stack);
+        case 5:
             exit(0);
         default:
             printf("Invalid choice!\n");
