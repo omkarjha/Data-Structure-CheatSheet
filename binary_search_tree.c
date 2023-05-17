@@ -12,7 +12,7 @@ struct node
 // globally initialized root pointer
 struct node *root = NULL;
 
-// function prototyping
+
 struct node *create_node(int);
 void insert(int);
 struct node *delete(struct node *, int);
@@ -118,7 +118,7 @@ int main()
      return 0;
 }
 
-// creates a new node
+
 struct node *create_node(int data)
 {
      struct node *new_node = (struct node *)malloc(sizeof(struct node));
