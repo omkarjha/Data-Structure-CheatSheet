@@ -1,7 +1,9 @@
+//WAP in C language to perform binary tree operations
+
 #include <stdio.h>
 #include <alloc.h>
 #include <conio.h>
-#include <stdio.h>
+
 struct tree
 {
      int info;

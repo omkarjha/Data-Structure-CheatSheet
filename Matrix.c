@@ -1,3 +1,5 @@
+//WAP in C language to form a matrix dynamically from user input
+
 #include <stdio.h>
 #include <stdlib.h>
 

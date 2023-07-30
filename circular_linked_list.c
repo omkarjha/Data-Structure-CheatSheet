@@ -1,3 +1,5 @@
+//// WAP in C language to insert node at begining,insert node at end,delete at begining,delete at last,display the linked list and search element from the Circular linked list.
+
 #include <stdio.h>
 #include <stdlib.h>
 

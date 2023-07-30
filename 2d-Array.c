@@ -1,3 +1,5 @@
+// WAP in C language to take input for a 2d Array and print it using dynamic memory allocation.
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -37,4 +39,5 @@ int main()
           for (j = 0; j < column; j++)
                printf("%d ", arr[i][j]);
      }
+
 }

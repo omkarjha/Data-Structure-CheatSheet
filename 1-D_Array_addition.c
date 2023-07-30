@@ -1,5 +1,6 @@
-#include <stdio.h>
+//WAP in C language to perform addition of elements of 2 arrays in a 3rd array
 
+#include <stdio.h>
 #include <stdlib.h>
 void main()
 {

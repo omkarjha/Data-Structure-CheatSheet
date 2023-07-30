@@ -1,3 +1,5 @@
+// WAP in C language to perform push,pop,peek and display functions on a stack using struct.
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -59,8 +61,8 @@ int peek(Stack *stack)
 }
 void display(Stack *stack)
 {
-    int i; 
-    if(isEmpty(stack))
+    int i;
+    if (isEmpty(stack))
     {
         printf("The stack is empty");
         return;
@@ -68,9 +70,9 @@ void display(Stack *stack)
     else
     {
         printf("The status of the stack is: ");
-        for (i = stack -> top; i >= 0; i--)
+        for (i = stack->top; i >= 0; i--)
         {
-            printf("%d \t",stack->arr[i]);
+            printf("%d \t", stack->arr[i]);
         }
         printf("\n");
     }

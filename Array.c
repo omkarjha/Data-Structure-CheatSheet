@@ -1,3 +1,5 @@
+//WAP in C language to take input for a dynamic array from user and print as output
+
 #include <stdio.h>
 #include <stdlib.h>
 
