@@ -1,5 +1,6 @@
+//WAP in C language to find minimum and maximum of a dynamic array.
+
 #include <stdio.h>
-#include <limits.h>
 #include <stdlib.h>
 void func(int arr[], int n)
 {
@@ -27,7 +28,7 @@ void func(int arr[], int n)
 int main()
 {
     int *arr, n, i;
-    printf("Enter the elemnts of the array:");
+    printf("Enter the size of the array:");
     scanf("%d", &n);
 
     printf("Enter the elements of the array:\n");
